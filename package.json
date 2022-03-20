@@ -1,11 +1,10 @@
 {
   "name": "pull-esm",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "This is an ES module build of [pull-stream](https://github.com/pull-stream/pull-stream)",
   "type": "module",
   "main": "dist/index.js",
   "scripts": {
-    "postinstall": "npm run build",
     "build": "tsup node_modules/pull-stream/index.js --minify --format esm --clean",
     "test": "tape test.mjs",
     "update": "npm i pull-stream@latest && npm run build && npm run test"
