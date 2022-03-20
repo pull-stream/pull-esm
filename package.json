@@ -1,6 +1,6 @@
 {
   "name": "pull-esm",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "This is an ES module build of [pull-stream](https://github.com/pull-stream/pull-stream)",
   "type": "module",
   "main": "dist/index.js",
