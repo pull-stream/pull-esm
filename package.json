@@ -6,7 +6,7 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "tsup node_modules/pull-stream/index.js --minify --format esm --clean",
-    "test": "tape test.mjs",
+    "test": "tape test.js",
     "update": "npm i pull-stream@latest && npm run build && npm run test"
   },
   "repository": {
